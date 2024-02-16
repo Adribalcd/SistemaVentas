@@ -1,8 +1,8 @@
 <?php
 
     $host = "localhost";
-    $user = "root";
-    $clave = "";
+    $user = "user";
+    $clave = "password";
     $bd = "sis_venta";
 
     $conexion = mysqli_connect($host,$user,$clave,$bd);

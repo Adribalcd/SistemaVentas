@@ -11,12 +11,6 @@ SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
 
-
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
-
 --
 -- Base de datos: `sis_venta`
 --
@@ -25,6 +19,13 @@ DELIMITER $$
 --
 -- Procedimientos
 --
+
+
+CREATE DATABASE IF NOT EXISTS sis_venta;
+USE sis_venta;
+
+-- Aquí irían los comandos para crear tablas y otros objetos de base de datos
+
 CREATE PROCEDURE `actualizar_precio_producto` (IN `n_cantidad` INT, IN `n_precio` DECIMAL(10,2), IN `codigo` INT)  BEGIN
 DECLARE nueva_existencia int;
 DECLARE nuevo_total decimal(10,2);
