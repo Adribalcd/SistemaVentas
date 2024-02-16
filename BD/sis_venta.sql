@@ -162,7 +162,7 @@ CREATE TABLE `configuracion` (
 --
 
 INSERT INTO `configuracion` (`id`, `dni`, `nombre`, `razon_social`, `telefono`, `email`, `direccion`, `igv`) VALUES
-(1, 2580, 'Vida Informático', 'Vida Informático', 925491523, 'naju@vidainformatico.com', 'Lima - Perú', '1.18');
+(1, 2580, 'Útiles Directos', 'Útiles Directos', 925491523, 'naju@vidainformatico.com', 'Lima - Perú', '1.18');
 
 -- --------------------------------------------------------
 
@@ -309,7 +309,7 @@ CREATE TABLE `usuario` (
 --
 
 INSERT INTO `usuario` (`idusuario`, `nombre`, `correo`, `usuario`, `clave`, `rol`) VALUES
-(1, 'Vida Informatico', 'vida@gmail.com', 'admin', '21232f297a57a5a743894a0e4a801fc3', 1),
+(1, 'Útiles Directos', 'vida@gmail.com', 'admin', '21232f297a57a5a743894a0e4a801fc3', 1),
 (6, 'Maria Perez Miranda', 'maria@gmail.com', 'maria', '263bce650e68ab4e23f28263760b9fa5', 3);
 
 --

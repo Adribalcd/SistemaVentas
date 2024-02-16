@@ -15,7 +15,7 @@
       </ul>
     </nav>
     <div class="copyright" id="copyright">
-      <p>Vida Informático</p>
+      <p>Útiles Directos</p>
      </div>
   </div>
 </footer>

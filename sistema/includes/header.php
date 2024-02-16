@@ -61,7 +61,7 @@ if ($result_data > 0) {
 					V - I
 				</a>
 				<a href="index.php" class="simple-text logo-normal">
-					Vida Informático
+					Útiles Directos
 				</a>
 			</div>
 			<div class="sidebar-wrapper" id="sidebar-wrapper">
